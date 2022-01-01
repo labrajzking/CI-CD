@@ -1,6 +1,5 @@
 const express = require("express");
 const winston = require("winston");
-const x,y=1;
 const logger = winston.createLogger({
   level: process.env.LOG_LEVEL || "info",
   format: winston.format.combine(
