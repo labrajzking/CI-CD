@@ -1,6 +1,6 @@
 const express = require("express");
 const winston = require("winston");
-
+const x,y=1;
 const logger = winston.createLogger({
   level: process.env.LOG_LEVEL || "info",
   format: winston.format.combine(
@@ -16,7 +16,7 @@ const port = 3000;
 
 app.get("/", (req, res) => {
   logger.debug("connection on route /");
-  res.send("Hello World! v2");
+  res.send("Test Application for CI/CD and logging");
 });
 
 app.get("/error", (req, res) => {

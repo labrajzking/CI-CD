@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KhalifaBL/node-ci-cd-app.git"
+    "url": "git+https://github.com/labrajzking/CI-CD"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KhalifaBL/node-ci-cd-app/issues"
+    "url": "https://github.com/labrajzking/CI-CD/issues"
   },
-  "homepage": "https://github.com/KhalifaBL/node-ci-cd-app#readme",
+  "homepage": "https://github.com/labrajzking/CI-CD#readme",
   "dependencies": {
     "express": "^4.17.1",
     "winston": "^3.3.3"
