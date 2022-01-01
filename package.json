@@ -1,0 +1,27 @@
+{
+  "name": "devops-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest ",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhalifaBL/node-ci-cd-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhalifaBL/node-ci-cd-app/issues"
+  },
+  "homepage": "https://github.com/KhalifaBL/node-ci-cd-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}

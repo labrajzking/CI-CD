@@ -1,0 +1,26 @@
+{
+  "requiresCompatibilities": ["FARGATE"],
+  "containerDefinitions": [
+    {
+      "name": "my-container",
+      "image": "wassimkallel/github-actions-demo",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": "3000",
+          "protocol": "tcp"
+        }
+      ],
+      "environment": [
+        {
+          "name": "LOG_LEVEL",
+          "value": "debug"
+        }
+      ]
+    }
+  ],
+  "networkMode": "awsvpc",
+  "memory": "1024",
+  "cpu": "512",
+  "family": "github-actions-demo"
+}
